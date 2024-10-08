@@ -1,0 +1,99 @@
+---
+format:
+  pdf:
+    include-in-header: include-in-header.tex
+    template-partials: 
+      - before-body.tex
+    geometry: margin=1in
+    mainfont: Garamond
+number-sections: true
+---
+
+
+# Einzelbetrachtungen
+
+## Angemessenheit der Sprache
+
+### Zielsetzung
+
+Bewertet wird die orthographische und grammatikalische Korrektheit der Arbeit. Daneben wird der allgemeine Sprachstil bewertet. Erwünscht sind präzise und angemessene Formulierungen und die Vermeidung von Füllwörtern.
+
+### Teilbewertungen
+
+1. Korrekte Rechtschreibung: \raisebox{-.1cm}{\TextField[width=.6cm, name=ortho, value=, align=2]{}} von 5 möglichen Punkten
+2. Korrekte Grammatik: \raisebox{-.1cm}{\TextField[width=.6cm, name=grammar, value=, align=2]{}} von 5 möglichen Punkten
+3. Allgemeiner Schreibstil: \raisebox{-.1cm}{\TextField[width=.6cm, name=writing, value=, align=2]{}} von 5 möglichen Punkten
+
+### Gesamtbewertung
+
+\raisebox{-.1cm}{\TextField[width=.6cm, name=lang, value=, align=2]{}} von 15 möglichen Punkten.
+
+## Fragestellung
+
+### Zielsetzung
+
+Ziel ist die Formulierung einer angemessenen Forschungsfrage und die Begründung ihrer Relevanz.
+
+### Bewertung
+
+\raisebox{-.1cm}{\TextField[width=.6cm, name=ques, value=, align=2]{}} von 10 möglichen Punkten.
+
+## Aufbau und Gliederung der Arbeit
+
+### Zielsetzung
+
+Die Arbeit sollte eine klare Struktur aufweisen, bei der die einzelnen Bestandteile in einem angemessenen Längenverhältnis zueinander stehen. Dabei muss die Arbeit eine sinnvolle Analyse beinhalten, mittels derer die Forschungsfrage beantwortet werden kann. Grundsätzlich müssen die Fragestellung, Argumentation und die ermittelten Ergebnisse stringent zusammenpassen. Die einzelnen Bestandteile folgen in schlüssiger Reihenfolge aufeinander.
+
+### Bewertung
+
+\raisebox{-.1cm}{\TextField[width=.6cm, name=ques, value=, align=2]{}} von 30 möglichen Punkten.
+
+## Stringenz der Argumentation
+
+### Zielsetzung
+
+Die Arbeit sollte eine bündige und vollständige Argumentation beinhalten. Dabei sollten Argumente präzise und klar formuliert werden. Argumente sollten überdies logisch nachvollziehbar und inhaltlich richtig sein. Bewertungsrelevant ist schließlich die Vielseitigkeit der Argumentation. Mögliche Einwände sollten einbezogen und berücksichtigt werden.
+
+### Teilbewertungen
+
+1. Bündigkeit und Vollständigkeit: \raisebox{-.1cm}{\TextField[width=.6cm, name=density, value=, align=2]{}} von 10 möglichen Punkten
+2. Beweiskraft: \raisebox{-.1cm}{\TextField[width=.6cm, name=correct, value=, align=2]{}} von 15 möglichen Punkten
+3. Vielseitigkeit: \raisebox{-.1cm}{\TextField[width=.6cm, name=wealth, value=, align=2]{}} von 10 möglichen Punkten
+
+### Gesamtbewertung
+
+\raisebox{-.1cm}{\TextField[width=.6cm, name=args, value=, align=2]{}} von 35 möglichen Punkten.
+
+## Einhalten der üblichen Formalia
+
+### Zielsetzung
+
+Alle gängigen Formalia müssen eingehalten werden. Diese ergeben sich aus den Angaben im Seminarplan und aus der Handreichung zur Anfertigung von Hausarbeiten. Oberstes Kriterium ist stets die Einheitlichkeit.
+
+### Bewertung
+
+\raisebox{-.1cm}{\TextField[width=.6cm, name=formalities, value=, align=2]{}} von 10 möglichen Punkten.
+
+\newpage
+
+# Gesamtbetrachtung
+
+Insgesamt wird der Arbeit die Note \raisebox{-.1cm}{\TextField[width=1cm, name=final, value=]{}} erteilt. Es wurden \raisebox{-.1cm}{\TextField[width=1cm, name=points, value=]{}} von 100 möglichen Punkten erreicht.
+
+**Kommentare**:
+
+\TextField[multiline=TRUE, width=\textwidth, height=13cm, charsize=16pt, name=comments, align=1, value=]{}
+
+\vfill
+
+\begingroup
+  \centering
+  \raisebox{.5cm}{\wildcardb{Ort, Datum}}
+  \hspace{1cm}
+  \wildcard{Unterschrift}
+  \par
+\endgroup
+
+\noindent\rule[7pt]{\linewidth}{0.4pt}
+
+\small Notenschlüssel = **1,0**: ab 96%; **1,3**: 95-91%; **1,7**: 90-86%; **2,0**: 85-81%; **2,3**: 80-76%; **2,7**: 75-71%; **3,0**: 70-66%; **3,3**: 65-61%; **3,7**: 60-56%; **4,0**: 55-51%; **nicht bestanden**: 50% und weniger oder in zwei Teilbereichen 0%.

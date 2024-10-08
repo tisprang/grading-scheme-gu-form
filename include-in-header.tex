@@ -1,0 +1,25 @@
+\usepackage{caption}
+\usepackage{longtable,booktabs}
+\usepackage{garamondlibre}
+\usepackage{fancyhdr}
+\usepackage{wrapfig,graphicx}
+\usepackage{setspace}
+\usepackage{xcolor}
+\definecolor{gublue}{RGB}{0,97,143}
+\usepackage[defaultlines=3,all]{nowidow}
+\usepackage{float}
+\usepackage[bottom,hang,flushmargin]{footmisc}
+\floatplacement{table}{H}
+\pagestyle{fancy}
+\setlength{\defaultaddspace}{0pt}
+\linespread{1.15}
+\usepackage{lipsum}
+\usepackage[]{hyperref}
+\newcommand*\wildcard[2][7.5cm]{\vspace*{2cm}\parbox{#1}{\hrulefill\par#2}}
+\newcommand*\wildcardb[2][7.5cm]{\vspace*{2cm}\parbox{#1}{\raisebox{-1cm}{\TextField[width=7.5cm, name=place, value=]{}}\par\rule[0pt]{7.5cm}{0.4pt}\par#2}}
+
+\def\DefaultOptionsofText{
+ print, bordercolor={},backgroundcolor=white,borderwidth=0cm,borderstyle=U,
+ format = {var me = event.target.name;  
+          var f = this.getField(me); 
+          f.textFont = 'Garamond'; }}
