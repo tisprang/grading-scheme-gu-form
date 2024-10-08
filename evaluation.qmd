@@ -46,7 +46,7 @@ Die Arbeit sollte eine klare Struktur aufweisen, bei der die einzelnen Bestandte
 
 ### Bewertung
 
-\raisebox{-.1cm}{\TextField[width=.6cm, name=ques, value=, align=2]{}} von 30 möglichen Punkten.
+\raisebox{-.1cm}{\TextField[width=.6cm, name=struc, value=, align=2]{}} von 30 möglichen Punkten.
 
 ## Stringenz der Argumentation
 
