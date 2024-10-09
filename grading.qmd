@@ -84,7 +84,7 @@ Insgesamt wird der Arbeit die Note \raisebox{-.1cm}{\TextField[width=1cm, name=f
 
 **Kommentare**:
 
-\TextField[multiline=TRUE, width=\textwidth, height=13cm, charsize=16pt, name=comments, value=]{}
+\TextField[multiline=TRUE, width=\textwidth, height=13cm, charsize=12pt, name=comments, value=]{}
 
 \vfill
 
