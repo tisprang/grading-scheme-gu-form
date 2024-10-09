@@ -6,6 +6,8 @@ format:
       - before-body.tex
     geometry: margin=1in
     mainfont: Garamond
+    title-meta: Benotungsbogen Goethe-Universität
+    author-meta: Timo Sprang
 number-sections: true
 ---
 
@@ -82,7 +84,7 @@ Insgesamt wird der Arbeit die Note \raisebox{-.1cm}{\TextField[width=1cm, name=f
 
 **Kommentare**:
 
-\TextField[multiline=TRUE, width=\textwidth, height=13cm, charsize=16pt, name=comments, align=1, value=]{}
+\TextField[multiline=TRUE, width=\textwidth, height=13cm, charsize=16pt, name=comments, value=]{}
 
 \vfill
 
